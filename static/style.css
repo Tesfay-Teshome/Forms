@@ -110,7 +110,7 @@ form{
     position: relative;
     background-color: rgba(70, 70, 70, 0.5);
     backdrop-filter: blur(10px);
-    border-radius: 10px;
+    border-radius: 20px;
     padding: 20px;
     width: 100%;
     box-shadow: 0 4px 6px rgba(0,0,0,0.9);
@@ -137,6 +137,40 @@ form h2{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
+form input[type="radio"]{
+    width:20px;
+    height: 17px;
+    padding-top:10px;
+    color: white;
+    margin: 5px;
+    cursor: pointer;
+    align-items:center;
+    justify-content:center;
+    text-align:center;
+    accent-color: rgb(0, 72, 180);
+}
+form input[type="submit"]{
+    background-color:rgb(2, 57, 140);
+    width:100%;
+    height:2.5rem;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 16px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+textarea{
+    width:100%;
+    padding:20px;
+    background-color:rgba(0, 0, 0, 0.5);
+    border-radius:10px;
+    color: white;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
 form input[type="text"],
 form input[type="email"],
 form input[type="password"],
@@ -148,10 +182,13 @@ form input[type="date"]{
     background-color:rgba(0, 0, 0, 0.5);
     color: white;
     border:none;
-    border-radius:5px;
+    border-radius:10px;
     backdrop-filter:blur(5px);
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 
+}
+form label{
+    padding-left:10px;
 }
 footer ul{
     display:flex;
